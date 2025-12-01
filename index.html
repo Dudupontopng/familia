@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homenagem à Família</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1 id="titulo-principal">Minha Família, Minha Base</h1>
+        <h3>Um projeto de Sábado Letivo</h3>
+    </header>
+
+    <main class="container">
+        <section class="intro">
+            <h2>Sobre Nós</h2>
+            <p>A família é o nosso primeiro contato com o mundo. É onde aprendemos a amar, a respeitar e a conviver com as diferenças.</p>
+            <p>Este site foi desenvolvido para homenagear as pessoas que fazem parte da minha história, relembrando momentos especiais e características únicas.</p>
+            <p>Utilizando tecnologia, transformamos memórias em uma página interativa, aplicando conhecimentos de programação web.</p>
+        </section>
+
+        <section class="galeria">
+            <img src="https://images.unsplash.com/photo-1511895426328-dc8714191300?q=80&w=1000&auto=format&fit=crop" alt="Foto representativa de família feliz" id="foto-familia">
+            <p class="legenda">Momentos que ficam para sempre.</p>
+        </section>
+
+        <section class="membros">
+            <h2>Quem Faz Parte</h2>
+            <ul id="lista-familiares"></ul>
+        </section>
+
+        <section class="interacao">
+            <h2>Mensagens Especiais</h2>
+            
+            <div class="controles">
+                <p>Escolha um número (1 a 3) para uma mensagem dedicada:</p>
+                <input type="number" id="input-escolha" min="1" max="3" placeholder="1, 2 ou 3">
+                <button id="btn-mensagem" class="btn-primario">Ver Mensagem (Switch)</button>
+            </div>
+
+            <div class="controles">
+                <button id="btn-surpresa" class="btn-secundario">Mostrar/Esconder Curiosidade (If/Else)</button>
+                <p id="texto-surpresa" class="oculto">Sabia que nossa família adora viajar nos finais de semana? É nossa tradição!</p>
+            </div>
+        </section>
+
+        <section class="detalhe-objeto">
+            <h2>Membro Destaque (Objeto JS)</h2>
+            <div id="card-destaque" class="card">
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido para o Simulado de Avaliação - 2025</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
